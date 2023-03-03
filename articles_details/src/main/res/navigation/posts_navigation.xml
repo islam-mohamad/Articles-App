@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/posts_navigation"
+    app:startDestination="@id/posts_fragment">
+    <fragment
+        android:id="@+id/posts_fragment"
+        android:name="com.islam.tasks.article_details.presentation.view.ArticlesDetailsFragment"
+        android:label="Posts Fragment" >
+
+        <deepLink
+            app:uri="articledetails://articles?author={author}" />
+    </fragment>
+</navigation>
