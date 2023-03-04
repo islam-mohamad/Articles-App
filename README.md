@@ -9,3 +9,4 @@ A sample android app implements most of the latest tech trends.
 * Coroutines
 * Modularization by feature
 * Navigation by navigation component and deep-links
+* NDK to secure api urls and keys
